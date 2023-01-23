@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Didact+Gothic&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/main.min.css">
     <title>Wedding Dress for Sale</title>
 </head>
-<body>
+<body >
 <header>
-<h1>Rue de Seine Jackson Sienna Wedding Dress</h1>
+    <div class="container header__container">
+<h1 class="header__title">Wedding Dress for Sale</h1>
 <nav>
-    <ul class="nav">
-    <li class="nav__item"><a href="./index.html">About</a></li>
-    <li class="nav__item"><a href="./contact.html">Make an Offer</a></li>
+    <ul class="header__nav">
+    <li class="header__item"><a href="./index.html" class="header__item--current">Home</a></li>
+    <li class="header__item"><a href="./gallery.html">Gallery</a></li>
+    <li class="header__item"><a href="./contact.html">Make an Offer</a></li>
     </ul>
 </nav>
+    </div>
 </header>
-<h2>About</h2>
-<p>This is a new with tags, never been worn wedding dress by the brand Rue de Seine.
-    The original listing can be found <a href="https://ruedeseine.com/collections/rue-icons-collection/jackson-nude">here</a> 
+            <ul class="home__gallery home__container">
+                <li class="home__image"><a href="./images/dress__display.jpg"></a>
+                    <img src="./images/dress__display.jpg" alt="picture of the dress on me from the side" height="350"
+                        width="250" />
+                    <img />
+                </li>
+                <li class="home__image"><a href="./images/dress__tag.jpg"></a>
+                    <img src="./images/dress__tag.jpg" alt="picture of the dress on me from the side" height="350"
+                        width="250" />
+                    <img />
+                </li>
+            </ul>
+<div class="container">
+<h2 class="home__title"><span class="home__title--style">Jackson Sienna Wedding Dress</span> by Rue de Seine</h2>
+<p class="about">This is a size 14, new with tags, never been worn wedding dress by the brand Rue de Seine.
+    The original listing can be found <a class="about__link" href="https://ruedeseine.com/collections/rue-icons-collection/jackson-nude">here.</a> 
     I bought this dress in 2019 from the wedding boutique "Ceremony Boston". Unfortunately the pandemic put off our wedding date until 
-    we decided to call it off, and instead take a vacation to Italy! I bought it full price and I am asking 3200, or best offer. Contact me with any questions!</p>
-        <p>Dress Description from the Rue de Seine website</p>
-        <p>"Off-white embroidery on mesh, paired with a deep sienna mesh lining, give the Jackson Gown a very modern
+    we decided to call it off, and instead take a vacation to Italy! I bought it full price and I am asking 3000, or best offer. Contact me with any questions!</p>
+        <p class="about__title">Dress Description from the Rue de Seine website:</p>
+        <p class="about__description">"Off-white embroidery on mesh, paired with a deep sienna mesh lining, give the Jackson Gown a very modern
             romance.
             Ethereal and elegant, the form fitted silhouette to low hip and plunging neckline fuse effortless modern romance
             with
@@ -30,41 +49,53 @@
             Floral
             lace
             is showcased beautifully with the contrast of sienna lining throughout the entire gown."</p>
-        <ul>
-            <li><a href="./images/front dress.jpg"></a>
+        <ul class="display display__container">
+            <li class="display__item"><a href="./images/front dress.jpg"></a>
                 <img src="./images/front dress.jpg" alt="picture of the dress on me from the side" height="450" width="350" />
                 <img />
             </li>
-            <li><a href="./images/back dress.jpg"></a>
+            <li class="display__item"><a href="./images/back dress.jpg"></a>
                 <img src="./images/back dress.jpg" alt="picture of the dress on me from the back" height="450" width="350" />
                 <img />
             </li>
-            <li><a href="./images/JACKSON-0678.jpg">
+            <li class="display__item"><a href="./images/dress__closeup.jpg"></a>
+                <img src="./images/dress__closeup.jpg" alt="picture of the dress on me from the side" height="450"
+                    width="350" />
+                <img />
+            </li>
+            <li class="display__item"><a href="./images/dress__displayback.jpg"></a>
+                <img src="./images/dress__displayback.jpg" alt="picture of the dress on me from the side" height="450" width="350" />
+                <img />
+            <li class="display__item"><a href="./images/JACKSON-0678.jpg">
                     <img src="./images/JACKSON-0678.jpg" alt="dress picture on model from original listing" height="450"
                         width="350" />
                     <img />
                 </a></li>
-            <li><a href="./images/JACKSON-0685.jpg"></a>
+            <li class="display__item"><a href="./images/JACKSON-0685.jpg"></a>
                 <img src="./images/JACKSON-0685.jpg" alt="dress picture on model from original listing" height="450"
                     width="350" />
                 <img />
             </li>
-            <li><a href="./images/JACKSON_0717.jpg"></a>
+            <li class="display__item"><a href="./images/JACKSON_0717.jpg"></a>
                 <img src="./images/JACKSON_0717.jpg" alt="dress picture on model from original listing" height="450"
                     width="350" />
                 <img />
             </li>
-            <li><a href="./images/JACKSON-0687.jpg"></a>
+            <li class="display__item"><a href="./images/JACKSON-0687.jpg"></a>
                 <img src="./images/JACKSON-0687.jpg" alt="dress picture on model from original listing" height="450"
                     width="350" />
                 <img />
             </li>
         </ul>
-<footer>
-    <h3>Contact</h3>
-    <ul>
-    <li><tel>(774)-994-2509</tel></li>
-    <li><email>rfrederi11@gmail.com</email></li>
+        <div>
+        <a href="./gallery.html" class="button">View Gallery</a>
+        </div>
+</div>
+<footer class="footer footer__container">
+    <h3 class="footer__title">Contact Me</h3>
+    <ul class="footer__nav">
+        <li class="footer__item"><a href="tel:7749942509">phone</a></li>
+        <li class="footer__item"><a href="mailto:chel@prettyloveletters.com">email</a></li>
     </ul>
 </footer>
 </body>

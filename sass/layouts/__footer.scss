@@ -1,0 +1,49 @@
+@use '../utilities/_vars';
+@use '../components/_comp';
+
+.footer__title {
+    font-size: 28px;
+    line-height: calc(28/35);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: vars.$white-color;
+}
+
+.footer__nav{
+    display: flex;
+justify-content: space-around;
+    align-items: center;  
+    margin: 20px 15px 30px 15px;
+}
+.footer__item {
+    display: flex;
+    font-family: Didact Gothic;
+    color: vars.$white-color;
+    background-color: vars.$highlight-color;
+    border: none;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 40px;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    &:hover,
+    &focus {
+        background-color: vars.$button-color ;
+    }
+}
+
+.footer__item a{
+    color: vars.$white-color;
+        padding: 4px 15px;
+        &:hover,
+        &focus{
+            color: vars.$highlight-color ;
+        }
+}

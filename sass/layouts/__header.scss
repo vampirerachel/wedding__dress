@@ -1,0 +1,54 @@
+@use '../utilities/_vars';
+@use '../components/_comp';
+
+.header__title{
+font-size: 28px;
+line-height: calc(28/35);
+display: flex;
+justify-content: center;
+align-items: center;
+color: vars.$text-color-default;
+padding-top: 30px;
+padding-bottom: 10px;
+font-style: italic;
+margin-top: 20px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+
+}
+.header__item{
+font-family: Didact Gothic;
+font-size: 15px;
+color: vars$text-color-default;
+line-height: calc(15/20);
+margin-bottom: 20px;
+margin-top: 10px;
+padding: 10px 10px 10px 10px;
+&:hover,
+&:focus{
+    color: vars.$highlight-color;
+}
+}
+
+.header__item--current{
+
+        position: relative;
+        color: vars.$highlight-color;
+
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 4px;
+            background-color: vars.$highlight-color;
+            left: 0px;
+            bottom: -2px;
+            border-radius: 2px 2px;
+        }
+}

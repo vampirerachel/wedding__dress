@@ -1,0 +1,65 @@
+@use '../utilities/_vars';
+@use '../components/_comp';
+
+body {
+    font-family: cormorant-garamond,
+        serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: vars.$text-color-default;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: vars.$text-color-default;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+input,
+textarea {
+    outline: none;
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}

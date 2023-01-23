@@ -1,0 +1,20 @@
+@use '../utilities/_vars';
+@use '../components/_comp';
+
+.gallery__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: vars.$button-color;
+}
+.gallery__item{
+    display: flex;
+margin-bottom: 10px;
+    width: 315px;
+}
+
+
+
+

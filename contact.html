@@ -1,58 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Didact+Gothic&display=swap">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Wedding Dress for Sale</title>
+</head>
+
+<body>
     <header>
-        <h2>Make an Offer</h2>
-    <ul class="nav">
-        <li class="nav__item"><a href="./index.html">About</a></li>
-    
-        <li class="nav__item"><a href="./contact.html">Make an Offer</a></li>
-    </ul>
+        <div class="container header__container">
+            <h1 class="header__title">Wedding Dress for Sale</h1>
+            <nav>
+                <ul class="header__nav">
+                    <li class="header__item"><a href="./index.html">Home</a></li>
+                    <li class="header__item"><a href="./gallery.html">Gallery</a></li>
+                    <li class="header__item"><a href="./contact.html" class="header__item--current">Make an Offer</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <ul>
-        <li>Original price $3450</li>
-        <li>Asking price $3000</li>
+    <h2 class="price__title">Price</h2>
+    <ul class="price__list">
+        <li class="price__item">Original price: $3450</li>
+        <li class="price__item">Asking price: $3000</li>
     </ul>
-    <p>Please contact me by phone or email with any questions. If you live in the Cape Area and want to try on the dress, we can arrange that.</p>
-    <button type="button" data-modal-open>Make an Offer</button>
-    <div data-modal class="backdrop is-hidden">
-        <form action="#" >
-            <button type="button" data-modal-close></button>
-            <label for="fname"><span>First name:</span>
-                <input type="text" name="first" id="fname" placeholder="First Name" />
-            </label>
-            <label for="lname"><span>Last Name:</span>
-                <input type="text" name="last" id="lname" placeholder="Last Name" />
-            </label>
-            <label for="email"><span>Email:</span>
-                <input type="email" name="email" id="email" placeholder="Email" />
-            </label>
-<label for="offer"><span>Offer:</span>
-    <input type="number" name="offer" id="offer" placeholder="$$$">
-</label>
-    <textarea style="resize: none" name="" id="" cols="20" rows="10"></textarea>
-    
-            <button type="submit">Submit Offer</button>
-        </form>
-    </div>
-
-<footer>
-    <h3>Contact</h3>
-    <ul>
-        <li>
-            <tel>(774)-994-2509</tel>
-        </li>
-        <li>
-            <email>rfrederi11@gmail.com</email>
-        </li>
+    <p class="message">Please contact me by phone or email with questions or an offer.</p>
+<footer class="footer footer__container">
+    <h3 class="footer__title">Contact Me</h3>
+    <ul class="footer__nav">
+        <li class="footer__item"><a href="tel:7749942509">phone</a></li>
+        <li class="footer__item"><a href="mailto:chel@prettyloveletters.com">email</a></li>
     </ul>
-
 </footer>
-        <script src="./js/modal.js"></script>
 </body>
+
 </html>

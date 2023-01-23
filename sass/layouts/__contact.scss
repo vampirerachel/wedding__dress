@@ -1,0 +1,32 @@
+@use '../utilities/_vars';
+@use '../components/_comp';
+
+.price__title{
+    display: flex;
+    justify-content: center;
+    font-family: Didact Gothic;
+    font-size: 20px;
+    line-height: calc(20/21);
+    margin-bottom: 20px;
+}
+.price__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: vars.$button-color;
+    padding: 10px;
+    margin: 0px 15px;
+}
+.price__item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: 1px solid vars.$highlight-color;
+    width: 200px;
+}
+.message{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: calc(25/27);
+}

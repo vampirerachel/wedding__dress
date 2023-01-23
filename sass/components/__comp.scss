@@ -1,5 +1,24 @@
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+
+@use '../utilities/_vars';
+
+
+.button {
+    background-color: vars.$highlight-color;
+    border: none;
+    color: vars.$white-color;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Didact Gothic;
+    font-size: 20px;
+    margin: 10px 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    &:hover,
+    &focus{
+        background-color: #f0e3e5;
+        color: vars.$highlight-color;
+    }
 }
